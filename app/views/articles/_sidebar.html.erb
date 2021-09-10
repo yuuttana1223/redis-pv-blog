@@ -1,0 +1,13 @@
+  <div id="sidebar">
+    <h2>★PV数ランキング</h2>
+    <ul>
+      <% articles.each do |article, count| %>
+        <li>
+          <%= link_to article do %>
+            <%= article.title %>
+            <span>(<%= count %>PV)</span>
+          <% end %>
+        </li>
+      <% end %>
+    </ul>
+  </div>

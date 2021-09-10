@@ -1,0 +1,106 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+/* 全体設定
+ ------------------------------------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+  color: #161616;
+  font-family: "KozGoPro-Light", "小塚ゴシック Pro L", "ヒラギノ角ゴ ProN W3",
+    "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo,
+    sans-serif;
+}
+
+.clear {
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+.alert {
+  text-align: center;
+  padding: 20px;
+  background-color: lightcoral;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* ヘッダー
+------------------------------------------------------------*/
+
+header {
+  width: 1000px;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+p#logo {
+  font-size: 24px;
+  font-weight: 100;
+  float: left;
+}
+
+p#logo a {
+  color: #161616;
+}
+
+p#logo a span {
+  font-weight: bold;
+  color: #00a9a2;
+}
+
+nav {
+  float: right;
+  margin-top: 15px;
+}
+
+nav ul li {
+  float: left;
+  margin-left: 30px;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: #7d7d7d;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* トップ　ー　フッター
+ ------------------------------------------------------------*/
+footer {
+  padding: 20px 0;
+  background-color: #161616;
+}
+
+div#footer_inner {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+div#footer_inner p {
+  color: #fff;
+  font-size: 12px;
+}

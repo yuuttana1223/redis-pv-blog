@@ -1,0 +1,97 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* トップ　ー　メイン画像
+ ------------------------------------------------------------*/
+
+div#main {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+/* トップ　ー　記事一覧
+ ------------------------------------------------------------*/
+
+div#article_wrap {
+  width: 1000px;
+  margin: 20px auto;
+}
+
+div#article_list {
+  width: 660px;
+  float: left;
+}
+
+div#article_list div {
+  padding: 20px 0;
+  border-bottom: 1px solid #7d7d7d;
+}
+
+div#article_list div h2 a {
+  font-size: 18px;
+  color: #161616;
+  text-decoration: none;
+}
+
+div#article_list div p {
+  font-size: 14px;
+  font-weight: bold;
+  color: #7d7d7d;
+}
+
+/* サイドバー
+------------------------------------------------------------*/
+
+div#sidebar {
+  width: 300px;
+  float: right;
+}
+
+div#sidebar h2 {
+  margin: 20px 0;
+}
+
+div#sidebar ul li {
+  list-style-type: none;
+}
+
+div#sidebar ul li a {
+  color: #00a9a2;
+}
+
+div#sidebar ul li a span {
+  color: #161616;
+}
+
+/* 記事ページ　ー　タイトル
+ ------------------------------------------------------------*/
+
+div#title {
+  background-color: #343434;
+  height: 130px;
+  color: #fff;
+  text-shadow: 0px 3px 5px #000;
+  padding-top: 60px;
+}
+
+div#title div {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+div#title h1 {
+  font-size: 30px;
+}
+
+/* 記事ページ　ー　記事内容
+------------------------------------------------------------*/
+
+div#content {
+  width: 660px;
+  float: left;
+}
+
+div#content h2 {
+  margin: 20px 0;
+}

@@ -1,0 +1,14 @@
+<div id="title">
+  <div>
+    <p><%= @article.created_at.strftime("%Y/%m/%d") %> / 書いた人:<%= @article.user.email %></p>
+    <h1><%= @article.title%></h1>
+  </div>
+</div>
+
+<div id="article_wrap">
+  <div id="content">
+    <%= @article.content %>
+  </div>
+  <%= render "articles/sidebar", articles: @ranking_articles %>
+  <div class="clear"></div>
+</div>
